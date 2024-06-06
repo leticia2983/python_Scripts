@@ -17,3 +17,6 @@ def check_and_start_service(service_name):
 if __name__ == "__main__":
     service_name = "WSLService"  # Replace with the name of your service
     check_and_start_service(service_name)
+
+#First, you'll need to install the pywin32 library if you haven't already.
+# pip install pywin32
